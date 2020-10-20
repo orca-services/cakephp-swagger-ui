@@ -12,5 +12,15 @@
   "require": {
     "php": ">=7.0",
     "cakephp/cakephp": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "SwaggerUi\\": "./src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SwaggerUi\\Test\\": "./tests/"
+    }
   }
 }
