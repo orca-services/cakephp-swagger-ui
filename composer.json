@@ -1,0 +1,16 @@
+{
+  "name": "orca-services/cakephp-swagger-ui",
+  "description": "A CakePHP plugin for publishing Swagger-UIs based on Swagger API documentation files",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ORCA Services AG",
+      "email": "development@orca-services.ch"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "cakephp/cakephp": "^3.8"
+  }
+}
