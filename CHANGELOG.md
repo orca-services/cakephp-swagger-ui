@@ -6,7 +6,7 @@ but use the following change types: "Added", "Changed", "Fixed" & "Dependencies 
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/orca-services/cakephp-swagger-ui/)
+## [Unreleased](https://github.com/orca-services/cakephp-swagger-ui/commits/main/)
 ### Added
 
 ### Changed
