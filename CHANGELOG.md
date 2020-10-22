@@ -8,12 +8,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased](https://github.com/orca-services/cakephp-swagger-ui/commits/main/)
 ### Added
+- Added CakePHP codesniffer as dev dependency
+- Added cs-check & cs-fix composer scripts
 
 ### Changed
 
 ### Fixed
 
 ### Dependencies Updated
+- squizlabs/php_codesniffer added in version 3.5.6
+- cakephp/cakephp-codesniffer added in version 3.3.0
 
 ## [0.1.0](https://github.com/Richard-Strittmatter/cakephp-swagger-ui/releases/tag/0.1.0) - 2020-10-21
 ### Added
