@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased](https://github.com/orca-services/cakephp-swagger-ui/commits/main/)
 ### Added
 - Added CakePHP codesniffer as dev dependency
+- Added cs-check & cs-fix composer scripts
 
 ### Changed
 
