@@ -26,7 +26,8 @@ Make sure your code changes comply with the CakePHP Coding standard,
 using [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer).
 Execute the following command from the plugin folder:
 
-    vendor/bin/phpcs -p --extensions=php --standard=CakePHP 
+    composer cs-fix
+    composer cs-check
 
 ## Additional Resources
 
