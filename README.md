@@ -1,5 +1,6 @@
-# cakephp-swagger-ui
-A CakePHP plugin for publishing Swagger-UIs based on Swagger API documentation files
+# CakePHP Swagger UI Plugin
+
+A CakePHP plugin for publishing [Swagger UIs](https://swagger.io/tools/swagger-ui/) based on [OpenAPI](https://www.openapis.org/) specification files.
 
 ## Contributing
 
