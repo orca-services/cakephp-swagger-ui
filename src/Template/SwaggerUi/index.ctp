@@ -4,10 +4,9 @@
  *
  * @var \App\View\AppView $this
  * @var string $title The title of the Swagger UI page.
- * @var string $swaggerSPecUrl The URL to the Open API specification file.
+ * @var string $openApiSpecification The OpenAPI specification file.
  */
 $this->setLayout(false);
-$swaggerSPecUrl = $swaggerSPecUrl ?? 'https://petstore.swagger.io/v2/swagger.json';
 
 if (!isset($title)) {
     $title = 'API Specification';
@@ -57,7 +56,6 @@ if (!isset($title)) {
         // Begin Swagger UI call region
         const ui = SwaggerUIBundle({
             spec: <?= $openApiSpecification ?>,
-            //url: "<?//= $swaggerSPecUrl ?>//",
             dom_id: '#swagger-ui',
             deepLinking: true,
             presets: [
