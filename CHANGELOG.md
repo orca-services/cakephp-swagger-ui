@@ -8,6 +8,15 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased](https://github.com/orca-services/cakephp-swagger-ui/commits/main/)
 ### Added
+
+### Changed
+
+### Fixed
+
+### Dependencies Updated
+
+## [0.2.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/0.2.0) - 2022-01-31
+### Added
 - Added CakePHP codesniffer as dev dependency
 - Added cs-check & cs-fix composer scripts
 - Added PhpStorm configuration
@@ -15,8 +24,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 - Upgraded Swagger UI to v4.4.0
-
-### Fixed
 
 ### Dependencies Updated
 - squizlabs/php_codesniffer added in version 3.5.6
