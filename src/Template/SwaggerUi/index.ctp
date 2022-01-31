@@ -12,6 +12,8 @@ $swaggerSPecUrl = $swaggerSPecUrl ?? 'https://petstore.swagger.io/v2/swagger.jso
 if (!isset($title)) {
     $title = 'API Specification';
 }
+
+// Modified Swagger UI template starts after closing PHP tag
 ?>
 <!-- HTML for static distribution bundle build -->
 <!DOCTYPE html>
