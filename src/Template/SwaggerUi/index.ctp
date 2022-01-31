@@ -50,8 +50,8 @@ if (!isset($title)) {
 <body>
 <div id="swagger-ui"></div>
 
-<?= $this->Html->script('/swagger_ui/js/swagger-ui-bundle.js') ?>
-<?= $this->Html->script('/swagger_ui/js/swagger-ui-standalone-preset.js') ?>
+<?= $this->Html->script('/swagger_ui/js/swagger-ui-bundle.js', ['charset' => 'UTF-8']) ?>
+<?= $this->Html->script('/swagger_ui/js/swagger-ui-standalone-preset.js', ['charset' => 'UTF-8']) ?>
 <script>
     window.onload = function() {
         // Begin Swagger UI call region
