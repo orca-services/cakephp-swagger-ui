@@ -21,6 +21,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Dependencies Updated
 - squizlabs/php_codesniffer added in version 3.5.6
 - cakephp/cakephp-codesniffer added in version 3.3.0
+- psr/log updated from 1.1.3 to 1.1.4 patch
+- laminas/laminas-zendframework-bridge updated from 1.1.1 to 1.4.1 minor
+- aura/intl updated from 3.0.0 to 3.0.1 patch
+- cakephp/cakephp updated from 3.9.3 to 3.10.2 minor
+- squizlabs/php_codesniffer updated from 3.5.6 to 3.6.2 minor
 
 ## [0.1.0](https://github.com/Richard-Strittmatter/cakephp-swagger-ui/releases/tag/0.1.0) - 2020-10-21
 ### Added
