@@ -10,11 +10,11 @@ To update the Swagger UI, the following steps need to be taken:
    2. Icon links
    3. Script links
    4. "Swagger UI call region" (spec/url, standalone preset & layout)
-3. Update the [Swagger UI CSS](../webroot/css/swagger-ui.css) with content of the [**latest tagged** Swagger UI CSS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui.css)
-4. Update the [Swagger UI 16px favicon](../webroot/img/favicon-16x16.png) with content of the [**latest tagged** Swagger UI 16px favicon distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/favicon-16x16.png)
-5. Update the [Swagger UI 32px favicon](../webroot/img/favicon-32x32.png) with content of the [**latest tagged** Swagger UI 32px favicon distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/favicon-32x32.png)
-6. Update the [Swagger UI JS](../webroot/js/swagger-ui.js) with content of the [**latest tagged** Swagger UI Bundle JS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui.js)
-7. Update the [Swagger UI Bundle JS](../webroot/js/swagger-ui-bundle.js) with content of the [**latest tagged** Swagger UI Bundle JS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui-bundle.js)
-8. Update the [Swagger UI Preset JS](../webroot/js/swagger-ui-standalone-preset.js) with content of the [**latest tagged** Swagger UI Preset JS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui-standalone-preset.js)
+3. Update the [Swagger UI CSS](../webroot/css/swagger-ui.css) with the [**latest tagged** Swagger UI CSS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui.css)
+4. Update the [Swagger UI 16px favicon](../webroot/img/favicon-16x16.png) with the [**latest tagged** Swagger UI 16px favicon distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/favicon-16x16.png)
+5. Update the [Swagger UI 32px favicon](../webroot/img/favicon-32x32.png) with the [**latest tagged** Swagger UI 32px favicon distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/favicon-32x32.png)
+6. Update the [Swagger UI JS](../webroot/js/swagger-ui.js) with the [**latest tagged** Swagger UI Bundle JS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui.js)
+7. Update the [Swagger UI Bundle JS](../webroot/js/swagger-ui-bundle.js) with the [**latest tagged** Swagger UI Bundle JS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui-bundle.js)
+8. Update the [Swagger UI Preset JS](../webroot/js/swagger-ui-standalone-preset.js) with the [**latest tagged** Swagger UI Preset JS  distributable](https://github.com/swagger-api/swagger-ui/blob/master/dist/swagger-ui-standalone-preset.js)
 
 
