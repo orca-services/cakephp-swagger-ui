@@ -34,6 +34,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - cakephp/cakephp updated from 3.9.3 to 3.10.2 minor
 - squizlabs/php_codesniffer updated from 3.5.6 to 3.6.2 minor
 
-## [0.1.0](https://github.com/Richard-Strittmatter/cakephp-swagger-ui/releases/tag/0.1.0) - 2020-10-21
+## [0.1.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/0.1.0) - 2020-10-21
 ### Added
 - Added plugin in initial working state
