@@ -10,8 +10,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 - Added CakePHP codesniffer as dev dependency
 - Added cs-check & cs-fix composer scripts
+- Added PhpStorm configuration
+- Added documentation on how to update the Swagger UI code
 
 ### Changed
+- Upgraded Swagger UI to v4.4.0
 
 ### Fixed
 

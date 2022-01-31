@@ -4,14 +4,15 @@
  *
  * @var \App\View\AppView $this
  * @var string $title The title of the Swagger UI page.
- * @var string $swaggerSPecUrl The URL to the Open API specification file.
+ * @var string $openApiSpecification The OpenAPI specification file.
  */
 $this->setLayout(false);
-$swaggerSPecUrl = $swaggerSPecUrl ?? 'https://petstore.swagger.io/v2/swagger.json';
 
 if (!isset($title)) {
     $title = 'API Specification';
 }
+
+// Modified Swagger UI template starts after closing PHP tag
 ?>
 <!-- HTML for static distribution bundle build -->
 <!DOCTYPE html>
@@ -48,14 +49,13 @@ if (!isset($title)) {
 <body>
 <div id="swagger-ui"></div>
 
-<?= $this->Html->script('/swagger_ui/js/swagger-ui-bundle.js') ?>
-<?= $this->Html->script('/swagger_ui/js/swagger-ui-standalone-preset.js') ?>
+<?= $this->Html->script('/swagger_ui/js/swagger-ui-bundle.js', ['charset' => 'UTF-8']) ?>
+<?= $this->Html->script('/swagger_ui/js/swagger-ui-standalone-preset.js', ['charset' => 'UTF-8']) ?>
 <script>
     window.onload = function() {
         // Begin Swagger UI call region
         const ui = SwaggerUIBundle({
             spec: <?= $openApiSpecification ?>,
-            //url: "<?//= $swaggerSPecUrl ?>//",
             dom_id: '#swagger-ui',
             deepLinking: true,
             presets: [
