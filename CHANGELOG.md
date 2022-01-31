@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 - Added CakePHP codesniffer as dev dependency
 - Added cs-check & cs-fix composer scripts
+- Added PhpStorm configuration
 
 ### Changed
 
