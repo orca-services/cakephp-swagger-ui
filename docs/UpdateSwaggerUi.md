@@ -1,5 +1,7 @@
 # How to Update the Swagger UI Code
 
+The Swagger UI in this CakePHP plugin is used as ["Plain old HTML/CSS/JS (Standalone)"](https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/installation.md#plain-old-htmlcssjs-standalone).
+
 To update the Swagger UI, the following steps need to be taken:
 
 1. Update the [Swagger UI HTML template](../src/Template/SwaggerUi/index.ctp) after the marker comment with content of the [**latest tagged** Swagger UI HTML distributable](https://github.com/swagger-api/swagger-ui/edit/master/dist/index.html)distributable)
