@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/./src" isTestSource="false" packagePrefix="SwaggerUi\" />
       <sourceFolder url="file://$MODULE_DIR$/./tests" isTestSource="true" packagePrefix="SwaggerUi\Test\" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/aura/intl" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/cakephp" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/cakephp-codesniffer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/chronos" />
@@ -20,6 +19,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-server-middleware" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-factory" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/container" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
