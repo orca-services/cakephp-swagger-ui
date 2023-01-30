@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 - Upgrade PHP version 7.1.x
+- Upgrade PHP version 7.2.x
 
 ### Fixed
 
