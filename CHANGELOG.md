@@ -10,13 +10,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 
 ### Changed
-- Upgrade PHP version 7.1.x
-- Upgrade PHP version 7.2.x
-- Upgrade CakePHP version to 4.0.x
 
 ### Fixed
 
 ### Dependencies Updated
+
+## [1.0.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.0) - 2023-01-30
+### Changed
+- Upgrade PHP version 7.1.x
+- Upgrade PHP version 7.2.x
+- Upgrade CakePHP version to 4.0.x
 
 ## [0.2.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/0.2.0) - 2022-01-31
 ### Added
