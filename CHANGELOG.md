@@ -10,11 +10,14 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 
 ### Changed
-- Correct minimum CakePHP requirement
 
 ### Fixed
 
 ### Dependencies Updated
+
+## [1.0.1](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.1) - 2023-01-30
+### Changed
+- Correct minimum CakePHP requirement
 
 ## [1.0.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.0) - 2023-01-30
 ### Changed
