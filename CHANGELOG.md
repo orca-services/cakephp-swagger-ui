@@ -12,8 +12,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Changed
 
 ### Fixed
+- Required missing symfony/yaml dependency
 
 ### Dependencies Updated
+- symfony/yaml installed in version v5.4.19
 
 ## [1.0.1](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.1) - 2023-01-30
 ### Changed
