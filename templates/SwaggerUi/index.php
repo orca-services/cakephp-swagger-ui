@@ -6,7 +6,7 @@
  * @var string $title The title of the Swagger UI page.
  * @var string $openApiSpecification The OpenAPI specification file.
  */
-$this->setLayout(false);
+$this->disableAutoLAyout();
 
 if (!isset($title)) {
     $title = 'API Specification';
