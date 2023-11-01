@@ -23,5 +23,4 @@
       </arguments>
     </listener>
   </listeners>
-  <!-- Ignore vendor tests in code coverage reports -->
 </phpunit>
