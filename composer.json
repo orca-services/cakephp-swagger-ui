@@ -26,13 +26,16 @@
     }
   },
   "require-dev": {
-    "cakephp/cakephp-codesniffer": "^3.0"
+    "cakephp/cakephp-codesniffer": "^3.0",
+    "phpunit/phpunit": "^9.6"
   },
   "scripts": {
     "check": [
+      "@test",
       "@cs-check"
     ],
     "cs-check": "phpcs src --standard=./vendor/cakephp/cakephp-codesniffer/CakePHP",
-    "cs-fix": "phpcbf src --standard=./vendor/cakephp/cakephp-codesniffer/CakePHP"
+    "cs-fix": "phpcbf src --standard=./vendor/cakephp/cakephp-codesniffer/CakePHP",
+    "test": "phpunit"
   }
 }
