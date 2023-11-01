@@ -17,6 +17,21 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Dependencies Updated
 - phpunit/phpunit installed in version 9.6.13
+- laminas/laminas-zendframework-bridge removed (installed version was 1.4.1)
+- psr/http-message updated from 1.0.1 to 1.1 minor
+- psr/http-server-handler updated from 1.0.1 to 1.0.2 patch
+- psr/http-server-middleware updated from 1.0.1 to 1.0.2 patch
+- psr/http-client updated from 1.0.1 to 1.0.3 patch
+- psr/container updated from 2.0.1 to 2.0.2 patch
+- psr/http-factory updated from 1.0.1 to 1.0.2 patch
+- laminas/laminas-diactoros updated from 2.14.0 to 2.17.0 minor
+- laminas/laminas-httphandlerrunner updated from 1.5.0 to 2.2.0 major
+- composer/ca-bundle updated from 1.3.5 to 1.3.7 patch
+- cakephp/chronos updated from 2.3.2 to 2.4.3 minor
+- cakephp/cakephp updated from 4.3.11 to 4.5.0 minor
+- squizlabs/php_codesniffer updated from 3.7.1 to 3.7.2 patch
+- symfony/polyfill-ctype updated from v1.27.0 to v1.28.0 minor
+- symfony/yaml updated from v5.4.19 to v5.4.30 patch
 
 ## [1.0.2](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.2) - 2023-02-10
 ### Fixed
