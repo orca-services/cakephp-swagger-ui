@@ -33,6 +33,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - squizlabs/php_codesniffer updated from 3.7.1 to 3.7.2 patch
 - symfony/polyfill-ctype updated from v1.27.0 to v1.28.0 minor
 - symfony/yaml updated from v5.4.19 to v5.4.30 patch
+- SwaggerUI upgraded from v5.17.14 tp v5.29.4 minor
 
 ## [1.0.2](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.2) - 2023-02-10
 ### Fixed
