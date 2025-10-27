@@ -8,13 +8,20 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased](https://github.com/orca-services/cakephp-swagger-ui/commits/main/)
 ### Added
+
+### Changed
+
+### Fixed
+
+### Dependencies Updated
+
+## [1.0.3](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.3) - 2025-10-27
+### Added
 - Added PHPUnit as dev dependency
 
 ### Changed
 - Disable auto layout in template
 - Upgraded Swagger UI to 5.29.4
-
-### Fixed
 
 ### Dependencies Updated
 - phpunit/phpunit installed in version 9.6.13
