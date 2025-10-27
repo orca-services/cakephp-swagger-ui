@@ -15,12 +15,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Dependencies Updated
 
-## [1.0.3](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.3) - 2025-10-27
+## [1.0.4](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.4) - 2025-10-27
 ### Added
 - Added PHPUnit as dev dependency
 
 ### Changed
-- Disable auto layout in template
 - Upgraded Swagger UI to 5.29.4
 
 ### Dependencies Updated
@@ -41,6 +40,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - symfony/polyfill-ctype updated from v1.27.0 to v1.28.0 minor
 - symfony/yaml updated from v5.4.19 to v5.4.30 patch
 - SwaggerUI upgraded from v5.17.14 tp v5.29.4 minor
+
+## [1.0.3](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.3) - 2023-3-6
+- Disable auto layout in template
 
 ## [1.0.2](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.2) - 2023-02-10
 ### Fixed
