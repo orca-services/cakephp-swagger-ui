@@ -31,7 +31,7 @@ trait SwaggerUiTrait
     }
 
     /**
-     * Shows the YAML file
+     * Provide the YAML file as downloadable file
      *
      * @param string|null $apiName The configuration name of the API to show, defaults to "default".
      * @return \Cake\Http\Response
