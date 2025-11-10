@@ -15,7 +15,7 @@ use Symfony\Component\Yaml\Yaml;
 trait SwaggerUiTrait
 {
     /**
-     * The Swagger UI
+     * Shows the Swagger UI
      *
      * @param string|null $apiName The configuration name of the API to show, defaults to "default".
      * @return \Cake\Http\Response|null|void
@@ -31,7 +31,7 @@ trait SwaggerUiTrait
     }
 
     /**
-     * The Swagger UI
+     * Shows the YAML file
      *
      * @param string|null $apiName The configuration name of the API to show, defaults to "default".
      * @return \Cake\Http\Response
