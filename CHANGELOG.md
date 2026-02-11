@@ -13,8 +13,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Improved SwaggerUiTrait doc blocks
 
 ### Fixed
+- Fix CVE-2026-24765 by updating PHPUnit
+- Fix CVE-2026-23643 by updating CakePHP
 
 ### Dependencies Updated
+- cakephp/cakephp updated from 4.5.0 to 4.6.3 minor
+- phpunit/phpunit updated from 9.6.13 to 9.6.34 patch
 
 ## [1.0.4](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.4) - 2025-10-27
 ### Added
