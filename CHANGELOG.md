@@ -10,6 +10,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 
 ### Changed
+
+### Fixed
+
+### Dependencies Updated
+
+## [1.0.5](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.5) - 2026-02-11
+### Changed
 - Improved SwaggerUiTrait doc blocks
 
 ### Fixed
