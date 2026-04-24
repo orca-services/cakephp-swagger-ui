@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Swagger UI" xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+    <description>The coding standard for ORCA Services Swagger UI Plugin.</description>
+
+    <file>./src</file>
+    <file>./tests</file>
+
+    <arg name="basepath" value="."/>
+    <arg name="parallel" value="75"/>
+    <arg value="p"/>
+
+    <rule ref="CakePHP">
+        <!-- Exclude unwanted sniffs -->
+        <exclude name="Generic.Commenting.Todo"/>
+
+        <!-- Suppress: FQCNs in PHPDoc should use short names via use statements -->
+        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
+    </rule>
+</ruleset>
