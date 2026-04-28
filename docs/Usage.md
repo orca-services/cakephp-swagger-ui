@@ -9,17 +9,17 @@ Register one or more OpenAPI specification files in your app configuration (typi
 ```php
 'SwaggerUi' => [
     'apis' => [
-        'default' => [
-            'file' => CONFIG . 'openapi' . DS . 'my-api.yaml',
+        'users' => [
+            'file' => CONFIG . 'openapi' . DS . 'users.yaml',
         ],
-        'admin' => [
-            'file' => CONFIG . 'openapi' . DS . 'admin-api.yaml',
+        'products' => [
+            'file' => CONFIG . 'openapi' . DS . 'products.yaml',
         ],
     ],
 ],
 ```
 
-Each entry under `apis` is keyed by an API name that you'll reference when calling the actions. The `file` key must point to a readable YAML file containing your OpenAPI specification.
+Each entry under `apis` is keyed by an **API** name that you'll reference when calling the actions. The `file` key must point to a **readable YAML file** containing **your OpenAPI specification**.
 
 ## Add the trait to a controller
 
@@ -49,7 +49,7 @@ If you omit `$apiName`, both actions fall back to the `default` configuration en
 Wire the actions up in `config/routes.php`. A minimal setup serving a single API looks like this:
 
 ```php
-$routes->scope('/', function (RouteBuilder $builder) {
+$routes->scope('/', static function (RouteBuilder $builder) {
     $builder->connect('/docs', ['controller' => 'Docs', 'action' => 'swaggerUi']);
     $builder->connect('/docs/openapi.yaml', ['controller' => 'Docs', 'action' => 'swaggerFile']);
 });
@@ -74,7 +74,7 @@ With the example config above, visiting `/docs/admin` would render the admin API
 The trait doesn't make any assumptions about who can access your documentation. If your API docs should be restricted, handle that the usual CakePHP way in the controller for instance, by allowing or denying specific actions in your authentication component's `beforeFilter()`:
 
 ```php
-public function beforeFilter(\Cake\Event\EventInterface $event)
+public function beforeFilter(\Cake\Event\EventInterface $event): void
 {
     parent::beforeFilter($event);
     $this->Authentication->allowUnauthenticated(['swaggerUi', 'swaggerFile']);
