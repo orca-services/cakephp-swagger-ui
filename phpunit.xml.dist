@@ -19,7 +19,7 @@
 
     <!-- Add any additional test suites you want to run here -->
     <testsuites>
-        <testsuite name="SwaggerUI">
+        <testsuite name="CakePHP Swagger UI Plugin">
             <directory>./tests/TestCase</directory>
         </testsuite>
     </testsuites>
