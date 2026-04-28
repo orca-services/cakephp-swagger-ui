@@ -10,10 +10,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 
 ### Changed
+- Improved overall documentation
 
 ### Fixed
 
 ### Dependencies Updated
+- cakephp/cakephp-codesniffer updated from 3.3.0 to 4.7.1 major
 
 ## [1.0.5](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.5) - 2026-02-11
 ### Changed

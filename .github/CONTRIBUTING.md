@@ -2,15 +2,14 @@
 
 We welcome your contribution. There are several ways to help out:
 
-* Create an issue on GitHub,
-if you have found a bug or have an idea for a feature
+* Create an issue on GitHub if you have found a bug or have an idea for a feature
 * Write test cases for open bug issues
 * Write patches for open bug/feature issues
 
-There are a few guidelines that we need contributors to follow, so that we have a
-chance of keeping on top of things.
+There are a few guidelines that we need contributors to follow so that we have a chance of keeping on top of things.
 
-* The code must follow the [CakePHP coding standard](https://book.cakephp.org/3/en/contributing/cakephp-coding-conventions.html).
+* The code must follow
+  the [CakePHP coding standard](https://book.cakephp.org/5.x/contributing/cakephp-coding-conventions.html).
 * All code changes should be covered by unit tests
 
 ## Issues
@@ -23,10 +22,9 @@ chance of keeping on top of things.
 ## Coding Standard
 
 Make sure your code changes comply with the CakePHP Coding standard,
-using [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer).
+using [PHP Codesniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer).
 Execute the following command from the plugin folder:
 
-    composer cs-fix
     composer cs-check
 
 ## Additional Resources
