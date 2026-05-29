@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 - Improved overall documentation
+- Exclude repository-only files from archives to reduce Composer distribution package size [#21](https://github.com/orca-services/cakephp-swagger-ui/issues/21)
 
 ### Fixed
 
