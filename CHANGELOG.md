@@ -10,10 +10,20 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 
 ### Changed
-- Improved overall documentation
-- Exclude repository-only files from archives to reduce Composer distribution package size [#21](https://github.com/orca-services/cakephp-swagger-ui/issues/21)
+- Bump support for CakePHP to 5.x
+- Update the minimum required PHP Version to PHP 8.2
 
 ### Fixed
+
+### Dependencies Updated
+- cakephp/cakephp updated from 4.6.3 to 5.3.6 major
+- cakephp/cakephp-codesniffer updated from 4.7.1 to 5.3.0 major
+- phpunit/phpunit updated from 9.6.34 to 10.5.63 major
+
+## [1.0.6](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.6) - 2026-06-24
+### Changed
+- Improved overall documentation
+- Exclude repository-only files from archives to reduce Composer distribution package size [#21](https://github.com/orca-services/cakephp-swagger-ui/issues/21)
 
 ### Dependencies Updated
 - cakephp/cakephp-codesniffer updated from 3.3.0 to 4.7.1 major
