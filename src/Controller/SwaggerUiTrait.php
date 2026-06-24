@@ -21,7 +21,7 @@ trait SwaggerUiTrait
      * @param string|null $apiName The configuration name of the API to show, defaults to "default".
      * @return \Cake\Http\Response|null|void
      */
-    public function swaggerUi($apiName = 'default')
+    public function swaggerUi(?string $apiName = 'default')
     {
         $openApiSpecification = $this->_getSpecificationFile($apiName);
         $openApiSpecification = Yaml::parseFile($openApiSpecification);
@@ -37,7 +37,7 @@ trait SwaggerUiTrait
      * @param string|null $apiName The configuration name of the API to show, defaults to "default".
      * @return \Cake\Http\Response
      */
-    public function swaggerFile($apiName = 'default'): Response
+    public function swaggerFile(?string $apiName = 'default'): Response
     {
         $openApiSpecification = $this->_getSpecificationFile($apiName);
         $this->response = $this->response->withFile($openApiSpecification);
@@ -51,7 +51,7 @@ trait SwaggerUiTrait
      * @param string $apiName The API
      * @return string The OpenAPI specification file path.
      */
-    protected function _getSpecificationFile($apiName): string
+    protected function _getSpecificationFile(string $apiName): string
     {
         $configKey = 'SwaggerUi.apis.' . $apiName . '.file';
         $openApiSpecification = Configure::consumeOrFail($configKey);
