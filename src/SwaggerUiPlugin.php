@@ -8,6 +8,6 @@ use Cake\Core\BasePlugin;
 /**
  * Plugin for SwaggerUi
  */
-class Plugin extends BasePlugin
+class SwaggerUiPlugin extends BasePlugin
 {
 }
