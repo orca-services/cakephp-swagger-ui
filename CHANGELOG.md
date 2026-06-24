@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 
 ### Changed
+- Upgraded Swagger UI to 5.32.8 [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
 - Bump support for CakePHP to 5.x [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
 - Update the minimum required PHP Version to PHP 8.2 [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
 
