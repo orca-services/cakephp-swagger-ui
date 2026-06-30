@@ -18,10 +18,10 @@ trait SwaggerUiTrait
     /**
      * Shows the Swagger UI
      *
-     * @param string|null $apiName The configuration name of the API to show, defaults to "default".
+     * @param string $apiName The configuration name of the API to show, defaults to "default".
      * @return \Cake\Http\Response|null|void
      */
-    public function swaggerUi(?string $apiName = 'default')
+    public function swaggerUi(string $apiName = 'default')
     {
         $openApiSpecification = $this->_getSpecificationFile($apiName);
         $openApiSpecification = Yaml::parseFile($openApiSpecification);
@@ -34,10 +34,10 @@ trait SwaggerUiTrait
     /**
      * Provide the YAML file as downloadable file
      *
-     * @param string|null $apiName The configuration name of the API to show, defaults to "default".
+     * @param string $apiName The configuration name of the API to show, defaults to "default".
      * @return \Cake\Http\Response
      */
-    public function swaggerFile(?string $apiName = 'default'): Response
+    public function swaggerFile(string $apiName = 'default'): Response
     {
         $openApiSpecification = $this->_getSpecificationFile($apiName);
         $this->response = $this->response->withFile($openApiSpecification);
