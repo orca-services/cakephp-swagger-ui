@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 We mostly adhere to [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.0.0/)
@@ -7,48 +8,72 @@ but use the following change types: "Added", "Changed", "Fixed" & "Dependencies 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased](https://github.com/orca-services/cakephp-swagger-ui/commits/main/)
+
 ### Added
 
 ### Changed
-- Upgraded Swagger UI to 5.32.8 [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
-- Bump support for CakePHP to 5.x [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
-- Update the minimum required PHP Version to PHP 8.2 [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
 
 ### Fixed
 
 ### Dependencies Updated
-- cakephp/cakephp updated from 4.6.3 to 5.3.6 major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
-- cakephp/cakephp-codesniffer updated from 4.7.1 to 5.3.0 major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
-- phpunit/phpunit updated from 9.6.34 to 10.5.63 major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
 
-## [1.0.6](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.6) - 2026-06-24
+## [2.0.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/2.0.0) - 2026-06-30
+
 ### Changed
-- Improved overall documentation
-- Exclude repository-only files from archives to reduce Composer distribution package size [#21](https://github.com/orca-services/cakephp-swagger-ui/issues/21)
+
+- Upgraded Swagger UI to 5.32.8 [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
+- Bump support for CakePHP to 5.x [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
+- Update the minimum required PHP Version to PHP
+  8.2 [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
 
 ### Dependencies Updated
+
+- cakephp/cakephp updated from 4.6.3 to 5.3.6 major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
+- cakephp/cakephp-codesniffer updated from 4.7.1 to 5.3.0
+  major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
+- phpunit/phpunit updated from 9.6.34 to 10.5.63
+  major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
+
+## [1.0.6](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.6) - 2026-06-24
+
+### Changed
+
+- Improved overall documentation
+- Exclude repository-only files from archives to reduce Composer distribution package
+  size [#21](https://github.com/orca-services/cakephp-swagger-ui/issues/21)
+
+### Dependencies Updated
+
 - cakephp/cakephp-codesniffer updated from 3.3.0 to 4.7.1 major
 
 ## [1.0.5](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.5) - 2026-02-11
+
 ### Changed
+
 - Improved SwaggerUiTrait doc blocks
 
 ### Fixed
+
 - Fix CVE-2026-24765 by updating PHPUnit
 - Fix CVE-2026-23643 by updating CakePHP
 
 ### Dependencies Updated
+
 - cakephp/cakephp updated from 4.5.0 to 4.6.3 minor
 - phpunit/phpunit updated from 9.6.13 to 9.6.34 patch
 
 ## [1.0.4](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.4) - 2025-10-27
+
 ### Added
+
 - Added PHPUnit as dev dependency
 
 ### Changed
+
 - Upgraded Swagger UI to 5.29.4 #15
 
 ### Dependencies Updated
+
 - phpunit/phpunit installed in version 9.6.13
 - laminas/laminas-zendframework-bridge removed (installed version was 1.4.1)
 - psr/http-message updated from 1.0.1 to 1.1 minor
@@ -68,36 +93,48 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - SwaggerUI upgraded from v5.17.14 to v5.29.4 minor #15
 
 ## [1.0.3](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.3) - 2023-3-6
+
 - Disable auto layout in template
 
 ## [1.0.2](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.2) - 2023-02-10
+
 ### Fixed
+
 - Required missing symfony/yaml dependency
 
 ### Dependencies Updated
+
 - symfony/yaml installed in version v5.4.19
 
 ## [1.0.1](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.1) - 2023-01-30
+
 ### Changed
+
 - Correct minimum CakePHP requirement
 
 ## [1.0.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.0) - 2023-01-30
+
 ### Changed
+
 - Upgrade PHP version 7.1.x
 - Upgrade PHP version 7.2.x
 - Upgrade CakePHP version to 4.0.x
 
 ## [0.2.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/0.2.0) - 2022-01-31
+
 ### Added
+
 - Added CakePHP codesniffer as dev dependency
 - Added cs-check & cs-fix composer scripts
 - Added PhpStorm configuration
 - Added documentation on how to update the Swagger UI code
 
 ### Changed
+
 - Upgraded Swagger UI to v4.4.0
 
 ### Dependencies Updated
+
 - squizlabs/php_codesniffer added in version 3.5.6
 - cakephp/cakephp-codesniffer added in version 3.3.0
 - psr/log updated from 1.1.3 to 1.1.4 patch
@@ -107,5 +144,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - squizlabs/php_codesniffer updated from 3.5.6 to 3.6.2 minor
 
 ## [0.1.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/0.1.0) - 2020-10-21
+
 ### Added
+
 - Added plugin in initial working state
