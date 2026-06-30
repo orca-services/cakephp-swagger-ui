@@ -22,9 +22,13 @@
         "issues": "https://github.com/orca-services/cakephp-swagger-ui/issues"
     },
     "require": {
-        "php": ">=7.2",
-        "cakephp/cakephp": "^4.6",
-        "symfony/yaml": "^3.4|^4.0|^5.0"
+        "php": "^8.2",
+        "cakephp/cakephp": "^5.3.1",
+        "symfony/yaml": "^7.4.13"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "^5.3.0",
+        "phpunit/phpunit": "^10.5.63"
     },
     "autoload": {
         "psr-4": {
@@ -35,10 +39,6 @@
         "psr-4": {
             "SwaggerUi\\Test\\": "./tests/"
         }
-    },
-    "require-dev": {
-        "cakephp/cakephp-codesniffer": "^4.0",
-        "phpunit/phpunit": "^9.6"
     },
     "scripts": {
         "check": [
@@ -54,11 +54,6 @@
         "sort-packages": true,
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
-        },
-        "audit": {
-            "ignore": {
-                "CVE-2023-29530": "PHP Version >=8.0 is needed for a secure version of laminas/diactoros"
-            }
         }
     }
 }
