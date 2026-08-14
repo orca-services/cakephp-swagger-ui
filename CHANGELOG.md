@@ -17,6 +17,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Dependencies Updated
 
+- cakephp/cakephp updated from 5.3.6 to 5.4.1 minor
+- cakephp/cakephp-codesniffer updated from 5.3.0 to 5.3.1 patch
+- phpunit/phpunit updated from 10.5.63 to 10.5.64 patch
+
 ## [2.0.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/2.0.0) - 2026-06-30
 
 ### Changed
@@ -29,10 +33,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Dependencies Updated
 
 - cakephp/cakephp updated from 4.6.3 to 5.3.6 major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
-- cakephp/cakephp-codesniffer updated from 4.7.1 to 5.3.0
-  major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
-- phpunit/phpunit updated from 9.6.34 to 10.5.63
-  major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
+- cakephp/cakephp-codesniffer updated from 4.7.1 to 5.3.0 major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
+- phpunit/phpunit updated from 9.6.34 to 10.5.63 major [#23](https://github.com/orca-services/cakephp-swagger-ui/issues/23)
 
 ## [1.0.6](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.6) - 2026-06-24
 
