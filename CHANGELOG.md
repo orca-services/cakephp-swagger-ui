@@ -14,7 +14,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Fixed
 
 ### Dependencies Updated
-- cakephp/cakephp updated from 4.6.3 to 4.6.4 patch
+- cakephp/cakephp updated from 4.6.3 to 4.6.5 patch
+- phpunit/phpunit updated from 9.6.34 to 9.6.36 patch
 
 ## [1.0.6](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/1.0.6) - 2026-06-24
 ### Changed
