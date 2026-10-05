@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cakephp/cakephp",
-            "version": "5.4.2",
+            "version": "5.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "887b641de9f7aba06071f98f17edcbc573cbcf63"
+                "reference": "6f3dd91371ac0698b64024ddb21d57def9fbba91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/887b641de9f7aba06071f98f17edcbc573cbcf63",
-                "reference": "887b641de9f7aba06071f98f17edcbc573cbcf63",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/6f3dd91371ac0698b64024ddb21d57def9fbba91",
+                "reference": "6f3dd91371ac0698b64024ddb21d57def9fbba91",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/cakephp"
             },
-            "time": "2026-09-06T01:09:54+00:00"
+            "time": "2026-10-03T03:40:34+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -1238,16 +1238,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.4.18",
+            "version": "v7.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "4cef939e55b8a21c5780418de0d98ab00d0736e1"
+                "reference": "0222bf4dfaa1e3ceb8fff579635d655f2950d5a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/4cef939e55b8a21c5780418de0d98ab00d0736e1",
-                "reference": "4cef939e55b8a21c5780418de0d98ab00d0736e1",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0222bf4dfaa1e3ceb8fff579635d655f2950d5a7",
+                "reference": "0222bf4dfaa1e3ceb8fff579635d655f2950d5a7",
                 "shasum": ""
             },
             "require": {
@@ -1290,7 +1290,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.4.18"
+                "source": "https://github.com/symfony/yaml/tree/v7.4.20"
             },
             "funding": [
                 {
@@ -1310,7 +1310,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-30T00:47:26+00:00"
+            "time": "2026-09-26T06:31:10+00:00"
         }
     ],
     "packages-dev": [
