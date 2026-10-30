@@ -20,6 +20,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - cakephp/cakephp updated from 5.3.6 to 5.4.1 minor
 - cakephp/cakephp-codesniffer updated from 5.3.0 to 5.3.1 patch
 - phpunit/phpunit updated from 10.5.63 to 10.5.64 patch
+- symfony/yaml updated from v7.4.21 to v7.4.22 patch
 
 ## [2.0.0](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/2.0.0) - 2026-06-30
 
