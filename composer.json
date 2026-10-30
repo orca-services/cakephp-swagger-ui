@@ -24,7 +24,7 @@
     "require": {
 		"php": "^7.4 | ^8.0",
         "cakephp/cakephp": "^4.6",
-        "symfony/yaml": "^3.4|^4.0|^5.0"
+        "symfony/yaml": "^5.4.54"
     },
     "autoload": {
         "psr-4": {

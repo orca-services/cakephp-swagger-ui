@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "216aa8975d20bbb055c7a94cb243659c",
+    "content-hash": "732d81487d747326ebca101036a8e6aa",
     "packages": [
         {
             "name": "cakephp/cakephp",
@@ -1074,16 +1074,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.4.53",
+            "version": "v5.4.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ae0bbb46f77ff56591d0a0259c7f458f4b3e1f77"
+                "reference": "f27a7131106e8cb792d434e8faea7f3ffb615263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ae0bbb46f77ff56591d0a0259c7f458f4b3e1f77",
-                "reference": "ae0bbb46f77ff56591d0a0259c7f458f4b3e1f77",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/f27a7131106e8cb792d434e8faea7f3ffb615263",
+                "reference": "f27a7131106e8cb792d434e8faea7f3ffb615263",
                 "shasum": ""
             },
             "require": {
@@ -1129,7 +1129,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.4.53"
+                "source": "https://github.com/symfony/yaml/tree/v5.4.54"
             },
             "funding": [
                 {
@@ -1149,7 +1149,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-20T17:13:41+00:00"
+            "time": "2026-08-30T06:09:20+00:00",
+            "published-time": "2026-10-15T06:52:16+00:00"
         }
     ],
     "packages-dev": [
@@ -3279,11 +3280,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2"
+        "php": "^7.4 | ^8.0"
     },
     "platform-dev": {},
     "platform-overrides": {
         "php": "7.4.33"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
