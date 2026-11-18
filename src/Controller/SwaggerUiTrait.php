@@ -40,9 +40,10 @@ trait SwaggerUiTrait
     public function swaggerFile(string $apiName = 'default'): Response
     {
         $openApiSpecification = $this->_getSpecificationFile($apiName);
-        $this->response = $this->response->withFile($openApiSpecification);
 
-        return $this->response;
+        return $this->response
+            ->withFile($openApiSpecification, ['download' => true])
+            ->withType('application/yaml');
     }
 
     /**
