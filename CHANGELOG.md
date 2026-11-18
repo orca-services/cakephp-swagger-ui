@@ -14,6 +14,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Changed
 
 ### Fixed
+
+### Dependencies Updated
+
+## [2.0.1](https://github.com/orca-services/cakephp-swagger-ui/releases/tag/2.0.1) - 2026-11-18
+
+### Fixed
 - `swaggerFile()` now forces a download of the OpenAPI specification instead of displaying it inline
 
 ### Dependencies Updated
